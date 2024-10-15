@@ -2,7 +2,7 @@ import NavBar from "../components/navbar";
 import "../assets/css/Home.css"
 import logoAdare from "../assets/images/adareLogo.png"
 import { useNavigate } from "react-router-dom";
-import FooterN from "../components/footer";
+import FooterN from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.js"
 
