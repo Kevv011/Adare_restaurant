@@ -1,10 +1,10 @@
-import HeaderNav from "./HeaderNav";
-import "../assets/css/Payment.css";
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import FooterN from "./Footer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft";
+import HeaderNav from "./HeaderNav";                                // Importar componente "HeaderNav"
+import "../assets/css/Payment.css";                                 // Importar estilos de la página "Payment"
+import { useState } from "react";                                   // Importar hook "useState"
+import { useNavigate } from "react-router-dom";                     // Importar hook "useNavigate"
+import FooterN from "./Footer";                                     // Importar componente "FooterN"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";   // Importar FontAwesomeIcon
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft";  // Importar icono "faArrowLeft"
 
 export default function PaymentMethods({ cart, totalPrice, removeItems }) {
     const [paymentMethod, setPaymentMethod] = useState("form-payment-method"); //state para abrir formularios de metodos de pago

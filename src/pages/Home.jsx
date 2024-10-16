@@ -1,10 +1,10 @@
-import NavBar from "../components/navbar";
-import "../assets/css/Home.css"
-import logoAdare from "../assets/images/adareLogo.png"
-import { useNavigate } from "react-router-dom";
-import FooterN from "../components/Footer";
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.bundle.js"
+import NavBar from "../components/navbar";              // Importar componente "NavBar"
+import "../assets/css/Home.css"                         // Importar estilos de la página "Home"
+import logoAdare from "../assets/images/adareLogo.png"  // Importar imagen "logoAdare"
+import { useNavigate } from "react-router-dom";         // Importar hook "useNavigate"
+import FooterN from "../components/Footer";             // Importar componente "FooterN"
+import "bootstrap/dist/css/bootstrap.min.css"           // Importar estilos de Bootstrap
+import "bootstrap/dist/js/bootstrap.bundle.js"          // Importar scripts de Bootstrap
 
 
 export function HomePage() {

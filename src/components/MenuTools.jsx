@@ -1,10 +1,10 @@
-import "../assets/css/MenuItem.css"
-import "../assets/css/MenuSection.css"
-import "bootstrap/dist/js/bootstrap.bundle.js"
-import { OverlayTrigger, Popover } from "react-bootstrap"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPlus } from "@fortawesome/free-solid-svg-icons"
-import { faMinus } from "@fortawesome/free-solid-svg-icons"
+import "../assets/css/MenuItem.css"                              // Importar estilos de la página "MenuItem"
+import "../assets/css/MenuSection.css"                           // Importar estilos de la página "MenuSection"
+import "bootstrap/dist/js/bootstrap.bundle.js"                   // Importar scripts de Bootstrap
+import { OverlayTrigger, Popover } from "react-bootstrap"        // Importar componentes "OverlayTrigger" y "Popover" de Bootstrap
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome" // Importar FontAwesomeIcon
+import { faPlus } from "@fortawesome/free-solid-svg-icons"       // Importar icono "faPlus"
+import { faMinus } from "@fortawesome/free-solid-svg-icons"      // Importar icono "faMinus"
 import { useState } from "react"
 
 //Componente para representar cada item de las secciones del menu

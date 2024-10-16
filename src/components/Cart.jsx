@@ -1,9 +1,9 @@
-import HeaderNav from "./HeaderNav";
-import "../assets/css/Cart.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft";
-import { useNavigate } from "react-router-dom";
-import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
+import HeaderNav from "./HeaderNav";                                          // Importar componente "HeaderNav"
+import "../assets/css/Cart.css"                                               // Importar estilos de la página "Cart"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"              // Importar FontAwesomeIcon
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft";  // Importar icono "faArrowLeft"
+import { useNavigate } from "react-router-dom";                               // Importar hook "useNavigate"
+import { faCreditCard } from "@fortawesome/free-solid-svg-icons";             // Importar icono "faCreditCard"
 import FooterN from "./Footer";
 
 export default function Cart({ cart, removeItem, removeAll, totalPrice, convertPrice }) {

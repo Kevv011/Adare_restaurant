@@ -1,12 +1,14 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import "bootstrap/dist/js/bootstrap.bundle.js"
-import HeaderNav from "../components/HeaderNav"
-import banner from "../assets/images/banner.png"
-import banner1 from "../assets/images/banner1.png"
-import "../assets/css/About.css"
-import FooterN from "../components/Footer"
+import "bootstrap/dist/css/bootstrap.min.css"       // Importar estilos de Bootstrap
+import "bootstrap/dist/js/bootstrap.bundle.js"      // Importar scripts de Bootstrap
+import HeaderNav from "../components/HeaderNav"     // Importar componente "HeaderNav"
+import banner from "../assets/images/banner.png"    // Importar imagen "banner"
+import banner1 from "../assets/images/banner1.png"  // Importar imagen "banner1"
+import "../assets/css/About.css"                    // Importar estilos de la página "About"
+import FooterN from "../components/Footer"          // Importar componente "FooterN"
 
-export function About() {
+//DESARROLLO DE LA PÁGINA "ABOUT"
+
+export function About() {    // Exportar función "About" que devuelve el contenido HTML de la página
     return (
         <>
             <header>

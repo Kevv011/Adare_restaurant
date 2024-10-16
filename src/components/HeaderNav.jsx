@@ -1,7 +1,7 @@
-import "../assets/css/Header.css"
-import logoAdare from "../assets/images/adareLogo.png"
-import { useNavigate } from "react-router-dom"
-import "../assets/css/HeaderNav.css"
+import "../assets/css/Header.css"                      // Importar estilos de la página "Home"
+import logoAdare from "../assets/images/adareLogo.png" // Importar imagen "logoAdare"
+import { useNavigate } from "react-router-dom"         // Importar hook "useNavigate"
+import "../assets/css/HeaderNav.css"                   // Importar estilos de la página "HeaderNav"
 
 export default function HeaderNav({ title }) {
     const navigateHeader = useNavigate();
