@@ -22,13 +22,13 @@ export function HomePage() {
                 <main>
                     <h2 className="h2-md-title p-1 h2">¡Un ristorante da gustare e condividere!</h2>
                     <section className="section-lg-home">
-                        <article className="art-md-pr container mt-3">
+                        <article className="art-md-pr container mt-3 text-center">
                             <p>Toda la esencia italiana para disfrutar y compartir con
                                 aquellos que amas. En Adare Restaurant, podrás degustar
                                 de platillos diseñados y perfeccionados por manos 100%
                                 italianas</p>
-                            <div className="div-md-btn">
-                                <button onClick={handleClick} className="btn btn-menu btn-light btn-lg">Ver el menú</button>
+                            <div className="div-md-btn d-flex justify-content-center">
+                                <button onClick={handleClick} className="btn btn-menu btn-light btn-lg px-5">Ver el menú</button>
                             </div>
                         </article>
                     </section>

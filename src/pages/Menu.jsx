@@ -103,7 +103,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item active carousel-item-1" data-bs-interval="10000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={caprese}
                                                 sectionName={'Insalata Caprese'}
@@ -115,7 +115,7 @@ export function Menu({ addToCart }) {
 
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={dedosqueso}
                                                 sectionName={'Mozzarella in Carrozza'}
@@ -132,7 +132,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-2" data-bs-interval="2000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={riso}
                                                 sectionName={'Riso al Salto'}
@@ -144,7 +144,7 @@ export function Menu({ addToCart }) {
 
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={cesar}
                                                 sectionName={'Insalata Cesare'}
@@ -161,7 +161,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-3">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={carman}
                                                 sectionName={'Carpaccio di Manzo '}
@@ -172,7 +172,7 @@ export function Menu({ addToCart }) {
                                                 id={5}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={carpul}
                                                 sectionName={'Carpaccio di Polpo '}
@@ -189,7 +189,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-4">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={cozzee}
                                                 sectionName={'Cozze'}
@@ -200,7 +200,7 @@ export function Menu({ addToCart }) {
                                                 id={7}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={polen}
                                                 sectionName={'Polenta Fritta con Aioli'}
@@ -217,7 +217,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-5">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={melan}
                                                 sectionName={'Melanzane Alla Parmigiana'}
@@ -228,7 +228,7 @@ export function Menu({ addToCart }) {
                                                 id={9}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={fmisto}
                                                 sectionName={'Fritto Misto'}
@@ -267,7 +267,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item active carousel-item-1" data-bs-interval="10000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={focaccia1}
                                                 sectionName={'Focaccia de aceitunas y tomates'}
@@ -278,7 +278,7 @@ export function Menu({ addToCart }) {
                                                 id={11}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={focaccia2}
                                                 sectionName={'Focaccia de mozzarela y hierbas'}
@@ -295,7 +295,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-2" data-bs-interval="2000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={blanco}
                                                 sectionName={'Pane Bianco'}
@@ -306,7 +306,7 @@ export function Menu({ addToCart }) {
                                                 id={13}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={ciupeta}
                                                 sectionName={'Orden de Ciupetas'}
@@ -345,7 +345,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item active carousel-item-1" data-bs-interval="10000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Minestrone}
                                                 sectionName={'Minestrone'}
@@ -356,7 +356,7 @@ export function Menu({ addToCart }) {
                                                 id={15}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Raffaelo}
                                                 sectionName={'Zuppe del Raffaelo'}
@@ -373,7 +373,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-2" data-bs-interval="2000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={tomate}
                                                 sectionName={'Crema de Tomate'}
@@ -384,7 +384,7 @@ export function Menu({ addToCart }) {
                                                 id={17}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={toscana}
                                                 sectionName={'Zuppe Toscana'}
@@ -401,7 +401,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-3">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={papa}
                                                 sectionName={'Crema de Papa'}
@@ -444,7 +444,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item active carousel-item-1" data-bs-interval="10000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={margarita}
                                                 sectionName={'Pizza Margarita Napolitana'}
@@ -455,7 +455,7 @@ export function Menu({ addToCart }) {
                                                 id={20}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={vegana}
                                                 sectionName={'Pizza Vegana'}
@@ -472,7 +472,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-2" data-bs-interval="2000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={pepperoni}
                                                 sectionName={'American Pepperoni'}
@@ -483,7 +483,7 @@ export function Menu({ addToCart }) {
                                                 id={22}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={queso}
                                                 sectionName={'Pizza Quattro Formaggi'}
@@ -500,7 +500,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-3">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={burrata}
                                                 sectionName={'Pizza Burrata'}
@@ -511,7 +511,7 @@ export function Menu({ addToCart }) {
                                                 id={24}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={carnivor}
                                                 sectionName={'Pizza Carnivor'}
@@ -528,7 +528,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-4">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={camarones}
                                                 sectionName={'Pizza Camarones al Ajillo'}
@@ -539,7 +539,7 @@ export function Menu({ addToCart }) {
                                                 id={26}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={porcheta}
                                                 sectionName={'Pizza Porcheta'}
@@ -556,7 +556,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-5">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={italiosa}
                                                 sectionName={'Extraordinaria Italiosa'}
@@ -567,7 +567,7 @@ export function Menu({ addToCart }) {
                                                 id={28}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Imperiale}
                                                 sectionName={'Extraoridnaria Imperiale'}
@@ -584,7 +584,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-6">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={carbonara}
                                                 sectionName={'Extraordinaria Caronara'}
@@ -595,7 +595,7 @@ export function Menu({ addToCart }) {
                                                 id={30}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={diavola}
                                                 sectionName={'Extraordinaria Diavola Di Mare'}
@@ -638,7 +638,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item active carousel-item-1" data-bs-interval="10000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={quesopimienta}
                                                 sectionName={'Bucatini Cacio e Pepe'}
@@ -649,7 +649,7 @@ export function Menu({ addToCart }) {
                                                 id={32}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={camaronesajo}
                                                 sectionName={'Fetuccini Aglio, Olio e Gamberetti'}
@@ -666,7 +666,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-2" data-bs-interval="2000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={pesto}
                                                 sectionName={'Gnocchi al Pesto Rústico'}
@@ -677,7 +677,7 @@ export function Menu({ addToCart }) {
                                                 id={34}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={sorrentina}
                                                 sectionName={'Gnocchi Alla Sorrentina'}
@@ -694,7 +694,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-3">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={lbolognesa}
                                                 sectionName={'Lasagna Bolognesa'}
@@ -705,7 +705,7 @@ export function Menu({ addToCart }) {
                                                 id={36}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={porcini}
                                                 sectionName={'Gnocchi Porcini'}
@@ -722,7 +722,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-4">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={lpomodoro}
                                                 sectionName={'Lasagna Pomodoro'}
@@ -733,7 +733,7 @@ export function Menu({ addToCart }) {
                                                 id={38}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={cozze}
                                                 sectionName={'Linguini Cozze'}
@@ -750,7 +750,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-5">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={lmare}
                                                 sectionName={'Linguini al Frutto di Mare'}
@@ -761,7 +761,7 @@ export function Menu({ addToCart }) {
                                                 id={40}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={bosco}
                                                 sectionName={'Mezalluna Bosco'}
@@ -778,7 +778,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-6">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={pbolognesa}
                                                 sectionName={'Paccheri Alla Bolognesa'}
@@ -789,7 +789,7 @@ export function Menu({ addToCart }) {
                                                 id={42}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={diabola}
                                                 sectionName={'Pasta Alla Spicy Vodka'}
@@ -827,7 +827,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item active carousel-item-1" data-bs-interval="10000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Funghi}
                                                 sectionName={'Funghi'}
@@ -838,7 +838,7 @@ export function Menu({ addToCart }) {
                                                 id={44}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Capresse}
                                                 sectionName={'Caprese'}
@@ -855,7 +855,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-2" data-bs-interval="2000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Ossobuco}
                                                 sectionName={'Ossobuco'}
@@ -866,7 +866,7 @@ export function Menu({ addToCart }) {
                                                 id={46}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Risotto_Nero}
                                                 sectionName={'Rissoto Nero'}
@@ -906,7 +906,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item active carousel-item-1" data-bs-interval="10000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={CanolliN}
                                                 sectionName={'Cannolli Nutella'}
@@ -917,7 +917,7 @@ export function Menu({ addToCart }) {
                                                 id={48}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Profiterol}
                                                 sectionName={'Profiterol Pistacchio'}
@@ -934,7 +934,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-2" data-bs-interval="2000">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Piemontesa}
                                                 sectionName={'Torta Piemontesa'}
@@ -945,7 +945,7 @@ export function Menu({ addToCart }) {
                                                 id={50}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Pannacota}
                                                 sectionName={'Pannacota de frutos rojos'}
@@ -962,7 +962,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-3">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={PizzaNut}
                                                 sectionName={'Pizza de nutella'}
@@ -973,7 +973,7 @@ export function Menu({ addToCart }) {
                                                 id={52}
                                             />
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={GelatoM}
                                                 sectionName={'Gelato Monterosso'}
@@ -990,7 +990,7 @@ export function Menu({ addToCart }) {
                             <div className="carousel-item carousel-item-4">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-12 col-md-6">
                                             <MenuItem
                                                 urlImg={Tiramisu}
                                                 sectionName={'Tiramisú'}

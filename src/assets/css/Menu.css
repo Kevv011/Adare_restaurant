@@ -17,3 +17,11 @@
 .container-cart button{
     height: 2.4em;
 }
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%; 
+    transform: translateY(-50%); 
+    display: flex;
+    align-items: center;
+    height: auto; 
+}
