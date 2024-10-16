@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft";
 import { useNavigate } from "react-router-dom";
 import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
-import FooterN from "./footer";
+import FooterN from "./Footer";
 
 export default function Cart({ cart, removeItem, removeAll, totalPrice, convertPrice }) {
     const returnP = useNavigate(); //hook para navegacion entre componentes

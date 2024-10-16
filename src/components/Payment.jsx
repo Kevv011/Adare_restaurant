@@ -2,7 +2,7 @@ import HeaderNav from "./HeaderNav";
 import "../assets/css/Payment.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import FooterN from "./footer";
+import FooterN from "./Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft";
 
