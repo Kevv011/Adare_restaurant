@@ -1,4 +1,4 @@
-import NavBar from "../components/Navbar";
+import NavBar from "../components/navbar";
 import "../assets/css/Home.css"
 import logoAdare from "../assets/images/adareLogo.png"
 import { useNavigate } from "react-router-dom";
