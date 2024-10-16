@@ -39,7 +39,7 @@ import Ossobuco from "../assets/images/Risotto/OSSOBUCO.jpg"
 import Risotto_Nero from "../assets/images/Risotto/Risotto_nero.jpg"
 /* Imagenes para seccion Dolci */
 import CanolliN from "../assets/images/Dolci/CANNOLLI.png"
-import Profiterol from "../assets/images/Dolci/PROFITEROL.JPG"
+import Profiterol from "../assets/images/Dolci/PROFITEROL.jpg"
 import Piemontesa from "../assets/images/Dolci/caprese2.jpg"
 import Pannacota from "../assets/images/Dolci/PANNACOTTA.jpg"
 import PizzaNut from "../assets/images/Dolci/pizza_nutella1.png"
