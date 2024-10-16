@@ -47,9 +47,11 @@ export default function PaymentMethods({ cart, totalPrice, removeItems }) {
             ? alert(
                 `Uno o más campos no se han completado. Por favor, rellenar con la información solicitada`
             )
-            : !/^[0-9]{4}\s[0-9]{4}$/.test(phoneN)
+            : !(/^[0-9]{4}\s[0-9]{4}$/.test(phoneN))
                 ? alert("El número de teléfono es inválido o posee el formato incorrecto")
-                : navigateToConfirm();
+                : !/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)
+                    ? alert("El correo electrónico ingresado no es válido")
+                    : navigateToConfirm();
     };
     const validationOnlineForm = () => { //Validaciones para pago en linea
         return name == "" ||
@@ -64,27 +66,28 @@ export default function PaymentMethods({ cart, totalPrice, removeItems }) {
             )
             : !/^[0-9]{4}\s[0-9]{4}$/.test(phoneN)
                 ? alert("El número de teléfono es inválido o posee el formato incorrecto")
-                : !/^[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}$/.test(cardN)
-                    ? alert("El número de tarjeta ingresado no es válido")
-                    : !/^[0-9]{2}$/.test(monthEx)
-                        ? alert("El mes debe ser ingresado en formato de 2 dígitos")
-                        : (monthEx < 1 || monthEx > 12)
-                            ? alert('El mes ingresado no es válido')
-                            : !/^[0-9]{4}$/.test(yearEx)
-                                ? alert("El año debe ser ingresado en formato de 4 dígitos")
-                                : !/^[0-9]{3}$/.test(cvN)
-                                    ? alert("El CV ingresado no es válido")
-                                    : navigateToConfirm2();
-    };
-    const handleClickRequestOnPlace = () => {
-        validationOnPlaceForm();
-    };
-    const handleClickRequestOnline = () => {
-        validationOnlineForm();
+                : !/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)
+                    ? alert("El correo electrónico ingresado no es válido")
+                    : !/^[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}$/.test(cardN)
+                        ? alert("El número de tarjeta ingresado no es válido")
+                        : !/^[0-9]{2}$/.test(monthEx)
+                            ? alert("El mes debe ser ingresado en formato de 2 dígitos")
+                            : (monthEx < 1 || monthEx > 12)
+                                ? alert('El mes ingresado no es válido')
+                                : (!/^[0-9]{4}$/.test(yearEx) || yearEx < "2024")
+                                    ? alert("El año debe ser ingresado en formato de 4 dígitos y debe estar dentro del rango de años actual")
+                                    : !/^[0-9]{3}$/.test(cvN)
+                                        ? alert("El CV ingresado no es válido")
+                                        : navigateToConfirm2();
     };
     const handleSubmit = (e) => {
         //Previene que el formulario se refresque automaticamente
         e.preventDefault();
+        if (isDisabled === "btn btn-info") {
+            validationOnPlaceForm(); // Llama a las validaciones cuando es un pago en el lugar
+        } else {
+            validationOnlineForm(); // Llama a las validaciones cuando es pago en línea
+        }
     };
     const handleClickPaymentOnPlace = () => {
         //Funcion para controlar funcionalidades del pago en el lugar
@@ -198,7 +201,7 @@ export default function PaymentMethods({ cart, totalPrice, removeItems }) {
                                             Por favor, introducir la siguiente información personal
                                             para la toma de su orden a continuación.
                                         </p>
-                                        <form onSubmit={handleSubmit}>
+                                        <form onSubmit={handleSubmit}> {/* Formulario para pagar en el lugar */}
                                             <div className="mb-3 form-floating">
                                                 <input
                                                     type="text"
@@ -245,12 +248,11 @@ export default function PaymentMethods({ cart, totalPrice, removeItems }) {
                                                     Formato de número de teléfono válido: 0000 0000
                                                 </p>
                                             </div>
-                                            <div className="mb-">
+                                            <div>
                                                 <input
                                                     type="submit"
                                                     className={isDisabled}
                                                     value={"Guardar información"}
-                                                    onClick={handleClickRequestOnPlace}
                                                 ></input>
                                                 <button
                                                     className="btn btn-secondary m-1"
@@ -268,7 +270,7 @@ export default function PaymentMethods({ cart, totalPrice, removeItems }) {
                                                 Por favor, introducir la siguiente información para el
                                                 método de pago en línea
                                             </p>
-                                            <form onSubmit={handleSubmit}>
+                                            <form onSubmit={handleSubmit}> {/* Formuñario para pagar en linea */}
                                                 <div className="mb-3 form-floating">
                                                     <input
                                                         type="text"
@@ -343,7 +345,6 @@ export default function PaymentMethods({ cart, totalPrice, removeItems }) {
                                                             type="submit"
                                                             className="btn btn-success"
                                                             value={"Realizar pago"}
-                                                            onClick={handleClickRequestOnline}
                                                         ></input>
                                                     </div>
                                                 </div>
