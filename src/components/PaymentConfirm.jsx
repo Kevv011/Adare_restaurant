@@ -1,5 +1,5 @@
 import HeaderNav from "./HeaderNav"
-import FooterN from "./footer"
+import FooterN from "./Footer"
 import "../assets/css/PaymentConfirm.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft";
