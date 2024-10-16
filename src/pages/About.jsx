@@ -4,7 +4,7 @@ import HeaderNav from "../components/HeaderNav"
 import banner from "../assets/images/banner.png"
 import banner1 from "../assets/images/banner1.png"
 import "../assets/css/About.css"
-import FooterN from "../components/footer"
+import FooterN from "../components/Footer"
 
 export function About() {
     return (
